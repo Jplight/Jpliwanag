@@ -1,0 +1,227 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #03001C;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Kaushan Script';
+}
+
+.name{
+    font-size: 1rem;
+}
+
+#time{
+    position: absolute;
+    top: 36px;
+    left: 35rem;
+}
+
+.summary{
+    text-align: center;
+}
+.details{
+    margin: 13% 5%;
+    text-align: left;
+}
+#myBtn{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fa-brands,.fa-solid{
+    font-size: 3rem;
+    margin: 0 5px;
+    color: white;
+}
+
+#myBtn:hover{
+    color: #FF8B13;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+.nav-link,.navbar-brand:hover{
+    color: white;
+}
+
+.btn:hover,.nav-link:hover,.navbar-brand,.fa-brands:hover,.fa-solid:hover{
+    color: #FF8B13;
+}
+
+.img1{
+    margin-left: 25%;
+    border-radius: 50%;
+    float: left;
+}
+
+.aboutMe{
+ text-align: left;
+ padding-top: 20%;
+}
+
+
+/* experience carousel */
+#experience{
+    text-align: center;
+    background-color: #2B2E4A;
+}
+
+.h1Title{
+    margin-top: 5px;
+    padding-top: 5px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 30%;
+    text-decoration-color: #FF8B13;
+}
+
+
+.carousel-inner{
+    text-align: center;
+    padding: 3% 15%;
+}
+
+.expP{
+    text-align: left;
+}
+
+
+
+/* skills */
+
+#skills{
+    text-align: center;
+}
+.cards{
+    padding: 5% 15%;
+}
+
+.skillImg{
+    height: 200px;
+    border-radius: 5%;
+}
+
+.card-body{
+    color: black;
+}
+.card{
+    border: white;
+    border-radius: 5%;
+    border-style: solid;
+    box-shadow: 0 0 0 3px #aaaaaa;
+}
+.card-text{
+    text-align: left;
+}
+
+
+
+
+/* modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+  
+  /* Modal Content */
+.modal-content {
+    background-color: #03001C;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    color: white;
+  }
+  
+  /*  Close Button */
+.close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #FF8B13;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* sideText */
+.sideText{
+    transform: rotate(-90deg);
+    position: fixed;
+    left: 0;
+    top: 500px;
+  }
+  .sideText i{
+    font-size: 1rem;
+  }  
+
+.sideText a{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+
+.sideText a:hover,.sideText i:hover{
+    color: #FF8B13;
+    transition: 3s;
+  }
+
+
+
+
+  /* contact me */
+
+
+#contactMe{
+    background-color: #2B2E4A;
+    text-align: center;
+}  
+
+.contactContainer{
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.frontEnd p{
+    min-width: 100px;
+}
+
+.mb-3{
+    margin: 0 50px;
+}
+
+
+.project{
+    margin-bottom: 15px;
+    padding-top: 5px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 30%;
+    text-decoration-color: #FF8B13;
+}
+
+.img-fluid{
+    margin-top: 30px;
+}
+
+.sendDetails{
+    text-align: center;
+    border-left: #FF8B13;
+    border-left-style: solid;
+}
+
